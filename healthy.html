@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Healthy</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <button onclick="gobackclick()">goback</button>
+    <img src="http://peakhealthcalgary.com/wp-content/uploads/2013/02/shutterstock_70838677.jpg">
+    <div class="center">Your heart is healthy :)</div>
+</div>
+<script>
+    function gobackclick() {
+        window.location = "/";
+    }
+</script>
+</body>
+</html>

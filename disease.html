@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HeartDiseaseWarning</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            text-align: center;
+            color: red;
+
+        }
+        img{
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <button onclick="gobackclick()">goback</button>
+    <img src="https://s3.amazonaws.com/stemcells21/wp-content/uploads/2017/10/19065332/Heart-Disease-Treatment-with-Stem-Cells.jpg">
+    <div class="center">Heart Disease Warning!</div>
+</div>
+<script>
+    function gobackclick() {
+        window.location = "/";
+    }
+</script>
+
+</body>
+</html>
